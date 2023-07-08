@@ -10,7 +10,7 @@ export interface OrderCreatedEvent {
    expiresAt: string; // It is a Date but converted to string for JSON
    ticket: {
     id: string;
-    proce: number;
+    price: number;
    }
   };
 }
