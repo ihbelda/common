@@ -4,6 +4,8 @@ import jwt from 'jsonwebtoken';
 
 interface UserPayload {
   id: string;
+  username: string;
+  role: string;
   email: string;
 }
 
