@@ -8,7 +8,7 @@ export class RequestValidationError extends CustomError {
     
     super('Invalid validation request'); 
 
-    // Only because we are extending a build in class
+    // Only because we are extending a built-in class
     Object.setPrototypeOf(this, RequestValidationError.prototype);
   }
 
