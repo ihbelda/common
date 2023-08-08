@@ -3,11 +3,11 @@ export enum EventStatus {
   Created = 'created',
 
   // The members are been added and notified
-  Cancelled = 'launched',
+  Launched = 'launched',
 
   // Any need for payments
   //AwaitingPayment = 'awaiting:payment',
 
   // The event has been closed
-  Complete = 'closed'
+  Closed = 'closed'
 }
