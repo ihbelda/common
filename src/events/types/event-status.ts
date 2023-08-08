@@ -13,15 +13,15 @@ export enum EventStatus {
 }
 
 export enum MemberStatus {
-  // When the event has been created
+  // When the member has been created
   Created = 'created',
 
-  // The members are been added and notified
-  Nofified = 'notified',
+  // The member has been notified about the invitation
+  Notified = 'notified',
 
-  // Any need for payments
-  //AwaitingPayment = 'awaiting:payment',
+  // The member accepted the invitation
+  Accepted = 'accepted',
 
-  // The event has been closed
+  // The member has paid
   Payed = 'payed',
 }
